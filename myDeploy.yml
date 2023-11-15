@@ -9,14 +9,14 @@ spec:
    selector:
      matchLabels:
        app: myjavaapp
-template: 
-   metadata: 
-   labels:
-     app: myjavaapp 
-   spec:
-      containers:
-      - name: myjavaapp-container
-        image: maha4iac/myjavaapp26march22:1
-        ports: 
-        - containerPort: 8080
+   template: 
+      metadata: 
+        labels:
+         app: myjavaapp 
+      spec:
+        containers:
+        - name: myjavaapp-container
+          image: maha4iac/myjavaapp26march22:1
+          ports: 
+          - containerPort: 8080
   
